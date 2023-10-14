@@ -84,7 +84,7 @@ me.onevent = function()
 				
 			return
 		end
-		
+
 		--Onyxia Phase 1
 		if string.find(arg1, mod.string.get("boss", "speech", "onyxiaphase1")) then
 				mod.target.automastertarget(arg2)
@@ -99,7 +99,7 @@ me.onevent = function()
 			
 			return
 		end
-		
+
 		-- Nef Phase 2
 		if string.find(arg1, mod.string.get("boss", "speech", "nefphase2")) then
 			-- reset threat in phase 2
@@ -153,7 +153,7 @@ me.onevent = function()
 			
 			return
 		end
-			
+
 		-- Azuregos Port
 		if string.find(arg1, mod.string.get("boss", "speech", "azuregosport")) then
 			

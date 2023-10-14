@@ -362,7 +362,7 @@
 							</OnValueChanged>
 						</Scripts>
 					</Slider>
-					
+
 				<CheckButton name="$parentMinimap" inherits="KLHTM_CheckButtonTemplate">
 						<Anchors>
 							<Anchor point="TOPLEFT" relativeTo="$parentScale" relativePoint="BOTTOMLEFT">

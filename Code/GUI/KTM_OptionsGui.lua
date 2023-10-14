@@ -537,7 +537,7 @@ function KLHTM_OptionsGeneral_OnClick(command)
 		
 	elseif (command == "MaximisedClearThreat") then
 		options.buttonVis.max.clear = ToBoolean(gui.gen.maxvis.clear.frame:GetChecked());
-			
+
 	elseif (command == "ShowMinimapButton") then
 		options.minimap = ToBoolean(gui.gen.minimap.frame:GetChecked());		
 	else

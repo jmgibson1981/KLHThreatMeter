@@ -681,7 +681,7 @@ do
 		end)
 		f:RegisterEvent("PLAYER_LOGIN")
 	end
-		end
+end
 
 function KTM_BeingDragged()
 	local mouseX, mouseY = GetCursorPosition();
@@ -705,7 +705,7 @@ function KTM_BeingDragged()
 		options.Position.y = y;
 	end
 
-	end
+end
 function KTM_ShowTooltip()
 	if( not this.aldragme) then
 		GameTooltip:SetOwner(this, "ANCHOR_BOTTOMRIGHT");
