@@ -3,6 +3,9 @@
 Updated KLHThreatMeter for Everlook
 
 # Changes
+17.40.250
+- Added test support for TWoW Threat API
+
 17.39.243
 - Reworked Minimap Button logic
 - Added option to hide minimap button
