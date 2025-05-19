@@ -1,3 +1,6 @@
+17.40.251
+- Fixed petMod for SuperWOW users
+
 17.40.250
 - Added test support for TWoW Threat API
 
