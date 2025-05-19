@@ -42,7 +42,9 @@ me.onupdate = function()
 	else
     if petincombat == true then
     	petincombat = false
+			if UnitName("pet") then 
     	mod.table.raiddata[UnitName("pet")] = nil
+			end
     	KLHTM_RequestRedraw("raid")
 		end 
 	end
