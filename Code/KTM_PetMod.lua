@@ -63,8 +63,12 @@ me.onevent = function()
 		return
 	end
 	
+
 	if output.final[1] ~= UnitName("pet") then
+		local found, _, petname, playerName =  string.find(output.final[1],"([^%(]+)%s%((.+)%)")
+		if(petname ~= UnitName("pet") or playerName ~= UnitName("player")) then
 		return
+	end
 	end
 
 	
